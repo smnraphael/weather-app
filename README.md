@@ -19,3 +19,4 @@ The user will be able to see:
 For this Weather App, I used HTML/CSS and React. And also the API from OpenWeather.
 
 ### Overview:
+<img width="1440" alt="Weather App" src="https://github.com/smnraphael/weather-app/assets/130636559/6f07af70-5466-4efb-b841-72b003219ef1">
