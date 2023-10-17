@@ -67,12 +67,17 @@ input:focus {
     width: 25px;
 }
 
-.city {
+.cityinfo {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 25px;
+}
+
+.icon {
+    height: 100px;
+    width: 100px
 }
 
 .weather {
