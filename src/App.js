@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import search_logo from './Assets/search.svg';
 import clear_sky from'./Assets/01d.svg';
 import few_clouds from'./Assets/02d.svg';
 import scattered_clouds from'./Assets/03d.svg';
@@ -71,7 +72,7 @@ function App() {
     <div className="container">
       <div className="search-bar">
         <input className="input" placeholder="Search..."></input>
-        <button className="button" onClick={()=>{search()}}><img className="search" src="search.svg"/></button>
+        <button className="button" onClick={()=>{search()}}><img className="search" src={search_logo} /></button>
       </div>
       <div className="cityinfo">
         <h1 className="city">-</h1>
