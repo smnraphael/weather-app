@@ -37,7 +37,7 @@ function WeatherApp() {
     if(element[0] === "") {
       return 0;
     }
-    
+
     let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=metric&appid=${API_KEY}`);
     let data = await response.json();
 

@@ -50,3 +50,12 @@
 span {
     color: white;
 }
+
+@media (prefers-color-scheme: light) {
+    .weather-1,
+    .weather-2 {
+      background-color: white;
+      box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+      ;
+    }
+  }

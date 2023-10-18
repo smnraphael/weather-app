@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100vw;
     background-color: rgb(30, 30, 30);
-    margin-top: 75px;
+    padding-top: 75px;
 }
 
 .weather {
@@ -26,3 +26,16 @@ p {
     color: rgb(100, 100, 100);
     font-weight: 500;
 }
+
+@media (prefers-color-scheme: light) {
+    .container {
+      background-color: rgb(250, 250, 250);
+      color: black;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: black;
+    }
+  }
